@@ -5,7 +5,7 @@ const { Header } = Layout;
 
 const Navbar = () => {
   const { data: session } = useSession();
-  console.log("form header", session);
+  // console.log("form header", session);
   return (
     <Header
       style={{
